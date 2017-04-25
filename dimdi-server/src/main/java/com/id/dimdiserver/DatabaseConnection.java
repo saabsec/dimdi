@@ -17,7 +17,7 @@ public class DatabaseConnection {
   static Logger logger = LogManager.getLogger(DatabaseConnection.class);
   
   /** The db url. */
-  private static String dbUrl = "jdbc:derby:/Users/mgrabova/Documents/workspace/dimdi-server/Data/dimdidata;create=true";
+  private static String dbUrl = "jdbc:derby:/workspace/dimdi-server/Data/dimdidata;create=true";
   
   /** The conn. */
   private static Connection conn = null;
